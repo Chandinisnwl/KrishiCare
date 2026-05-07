@@ -1,0 +1,41 @@
+# Node
+node_modules/
+
+# Production
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Build output
+server/public/
+
+# Replit / temporary
+.replit
+
+# Vite
+vite.config.ts.*
+
+# Archives
+*.tar.gz
+*.zip
+*.tgz
+
+# Mac
+.AppleDouble
+.LSOverride

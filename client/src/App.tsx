@@ -13,12 +13,14 @@ import SoilQuality from "@/pages/features/soil-quality";
 import FarmingTechniques from "@/pages/features/farming-techniques";
 import PestDetection from "@/pages/features/pest-detection";
 import ExpertAdvice from "@/pages/features/expert-advice";
+import CropPlanner from "@/pages/features/crop-planner";
+import MarketAlerts from "@/pages/features/market-alerts";
 import NotFound from "@/pages/not-found";
 import "./lib/i18n";
 
 function Router() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-950 dark:bg-slate-950/5 dark:text-slate-100">
       <Navbar />
       <main className="flex-1">
         <Switch>
@@ -31,6 +33,8 @@ function Router() {
           <Route path="/farming-techniques" component={FarmingTechniques} />
           <Route path="/pest-detection" component={PestDetection} />
           <Route path="/expert-advice" component={ExpertAdvice} />
+          <Route path="/crop-planner" component={CropPlanner} />
+          <Route path="/market-alerts" component={MarketAlerts} />
           <Route component={NotFound} />
         </Switch>
       </main>
@@ -44,7 +48,7 @@ function Router() {
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="light" storageKey="krishicare-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="krishicare-theme">
       <QueryClientProvider client={queryClient}>
         <Router />
         <Toaster />

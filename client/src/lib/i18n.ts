@@ -23,7 +23,9 @@ const resources = {
         soilQuality: "Soil Quality",
         farmingTechniques: "Farming Techniques",
         pestDetection: "Pest Detection",
-        expertAdvice: "Expert Advice"
+        expertAdvice: "Expert Advice",
+        cropPlanner: "Crop Planner",
+        marketAlerts: "Market Alerts"
       }
     }
   }

@@ -1,0 +1,9 @@
+{
+  "variant": "professional",
+  "primary": "hsl(142 88% 34%)",
+  "secondary": "hsl(171 60% 62%)",
+  "accent": "hsl(160 58% 53%)",
+  "destructive": "hsl(354 70% 60%)",
+  "appearance": "dark",
+  "radius": 0.7
+}

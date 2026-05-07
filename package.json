@@ -1,6 +1,8 @@
 {
-  "name": "rest-express",
+  "name": "krishicare",
   "version": "1.0.0",
+  "private": true,
+  "description": "KrishiCare is a full-stack farm management dashboard built with React, Vite, Express, and Tailwind CSS.",
   "type": "module",
   "license": "MIT",
   "scripts": {
