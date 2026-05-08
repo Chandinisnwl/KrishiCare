@@ -147,16 +147,6 @@ npm run build
 #### 🌐 Render (Current)
 KrishiCare is deployed on Render for reliable hosting.
 
-#### ⚡ Vercel (Alternative)
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Login and deploy
-vercel login
-vercel --prod
-```
-
 ## 🔮 Future Roadmap
 
 - [ ] **Real-time Weather Integration** - Connect with weather APIs for accurate forecasts
