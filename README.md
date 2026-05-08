@@ -2,6 +2,10 @@
 
 KrishiCare is a full-stack farming dashboard designed for weather-aware crop planning, market alerts, soil insights, and expert guidance. The project combines a modern React + Vite frontend with a lightweight Node/Express backend.
 
+## Live Demo
+
+🚀 **[View Live Demo](https://krishicare.onrender.com/)**
+
 ## Features
 
 - Transparent light/dark glass UI with adaptive styling
@@ -74,6 +78,43 @@ Open the URL shown by Vite in your browser (usually `http://localhost:5173`).
 ```bash
 npm run build
 ```
+
+## Deployment
+
+### Render (Current Deployment)
+
+KrishiCare is currently deployed on Render at: **[https://krishicare.onrender.com/](https://krishicare.onrender.com/)**
+
+### Vercel (Alternative)
+
+KrishiCare is also configured for easy deployment to Vercel:
+
+1. **Install Vercel CLI** (if not already installed):
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Login to Vercel**:
+   ```bash
+   vercel login
+   ```
+
+3. **Deploy**:
+   ```bash
+   vercel --prod
+   ```
+
+Or use the provided deployment scripts:
+- **Linux/Mac**: `./deploy.sh`
+- **Windows**: `deploy.bat`
+
+The app will be deployed as a full-stack application with the Express server running as serverless functions.
+
+### Manual Vercel Deployment
+
+1. Push your code to GitHub
+2. Connect your GitHub repository to Vercel
+3. Vercel will automatically detect the `vercel.json` configuration and deploy
 
 ## Future Improvements
 
