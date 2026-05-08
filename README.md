@@ -1,90 +1,130 @@
-# KrishiCare
+KrishiCare 🌾
+KrishiCare is a full-stack smart farming dashboard built to help farmers make better agricultural decisions through weather-aware crop planning, market monitoring, soil insights, and expert farming guidance.
 
-KrishiCare is a full-stack farming dashboard designed for weather-aware crop planning, market alerts, soil insights, and expert guidance. The project combines a modern React + Vite frontend with a lightweight Node/Express backend.
+The platform combines a modern React + Vite frontend with a scalable Node.js + Express backend, delivering a responsive and interactive user experience optimized for both desktop and mobile devices.
 
-## Features
+🚀 Live Demo
+KrishiCare Live Website
 
-- Transparent light/dark glass UI with adaptive styling
-- Dashboard with fast access to farming tools and analytics
-- Crop planner with seasonal recommendations
-- Market alerts and trend tracking
-- Multi-page routing using `wouter`
-- Responsive design optimized for desktop and mobile
-- Internationalization support with `react-i18next`
-- Backend-ready structure with Express server and database tooling
+✨ Features
+🌦️ Weather-aware crop planning
 
-## Tech Stack
+🌱 Seasonal crop recommendations
 
-- Frontend: React 18, Vite, Tailwind CSS
-- Backend: Node.js, Express, TypeScript
-- Database / ORM: Drizzle ORM + Drizzle Kit
-- State / data fetching: `@tanstack/react-query`
-- UI primitives: Radix UI, Lucide icons, custom components
-- Localization: `react-i18next`
+📈 Market alerts and farming trends
 
-## Repository Structure
+🧪 Soil insights and guidance
 
-```txt
+🌐 Multi-language support using react-i18next
+
+🌓 Transparent glassmorphism light/dark UI
+
+📱 Fully responsive layout for mobile and desktop
+
+⚡ Fast navigation with client-side routing
+
+🔧 Modular backend architecture with Express
+
+🛠️ Tech Stack
+Frontend
+React 18
+
+Vite
+
+Tailwind CSS
+
+TypeScript
+
+Backend
+Node.js
+
+Express.js
+
+Database & ORM
+Drizzle ORM
+
+Drizzle Kit
+
+State Management & Fetching
+@tanstack/react-query
+
+UI & Utilities
+Radix UI
+
+Lucide React Icons
+
+react-i18next
+
+wouter
+
+📂 Project Structure
 KrishiCare/
 ├── client/
-│   ├── index.html
 │   ├── src/
-│   │   ├── App.tsx
-│   │   ├── index.css
-│   │   ├── main.tsx
 │   │   ├── components/
 │   │   ├── hooks/
 │   │   ├── lib/
-│   │   └── pages/
-│   └── tsconfig.json
+│   │   ├── pages/
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│
 ├── server/
 │   ├── index.ts
 │   ├── routes.ts
 │   ├── storage.ts
 │   └── vite.ts
+│
 ├── shared/
 ├── package.json
-├── package-lock.json
-├── tsconfig.json
 ├── vite.config.ts
 ├── tailwind.config.ts
 ├── drizzle.config.ts
-├── postcss.config.js
-├── theme.json
-├── .gitignore
 └── README.md
-```
+⚙️ Installation
+Clone the repository:
 
-## Installation
+git clone https://github.com/chandinisnwl/KrishiCare.git
+cd KrishiCare
+Install dependencies:
 
-```bash
 npm install
-```
-
-## Development
-
-```bash
+▶️ Run Development Server
 npm run dev
-```
+Open:
 
-Open the URL shown by Vite in your browser (usually `http://localhost:5173`).
-
-## Build
-
-```bash
+http://localhost:5173
+📦 Production Build
 npm run build
-```
+🌐 Deployment
+The application is deployed using Render.
 
-## Future Improvements
+Open KrishiCare
 
-- Add database migrations and seeded demo data
-- Integrate real weather and market data APIs
-- Add user authentication and profiles
-- Add charts and historical analytics
-- Add mobile navigation and performance optimization
+🔮 Future Improvements
+Real-time weather API integration
 
-## Notes
+Live mandi/market price tracking
 
-- Theme selection is saved in `localStorage`
-- The backend server is bundled with `esbuild` for production builds
-- `drizzle-kit` is configured to manage database schema changes
+AI-powered crop recommendations
+
+User authentication & farmer profiles
+
+Historical analytics and charts
+
+Offline support for rural connectivity
+
+Pest detection using image processing
+
+📝 Notes
+Theme preferences are stored using localStorage
+
+Backend production builds use esbuild
+
+drizzle-kit is configured for schema management and migrations
+
+👩‍💻 Author
+Chandini Sonowal
+BTech CSE Student | Full-Stack Developer
+
+📜 License
+This project is developed for educational and learning purposes.
