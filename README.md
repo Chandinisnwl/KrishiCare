@@ -1,171 +1,199 @@
-# KrishiCare
+# 🌾 KrishiCare
 
-KrishiCare is a full-stack farming dashboard designed for weather-aware crop planning, market alerts, soil insights, and expert guidance. The project combines a modern React + Vite frontend with a lightweight Node/Express backend.
+<div align="center">
+  <img src="https://img.shields.io/badge/React-18.2.0-blue" alt="React"/>
+  <img src="https://img.shields.io/badge/Vite-5.1.0-646CFF" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Node.js-20.x-green" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.x-blue" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC" alt="Tailwind CSS"/>
+</div>
 
-## Live Demo
+<br/>
 
-🚀 **[View Live Demo](https://krishicare.onrender.com/)**
+<div align="center">
+  <h3>🌱 Smart Farming Dashboard for Modern Agriculture</h3>
+  <p><em>Empowering farmers with weather-aware crop planning, market insights, and expert guidance</em></p>
+</div>
 
-## Features
-🌦️ Weather-aware crop planning
+<br/>
 
-🌱 Seasonal crop recommendations
+<div align="center">
+  <a href="https://krishicare.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-FF6B6B?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo"/>
+  </a>
+</div>
 
-📈 Market alerts and farming trends
+---
 
-🧪 Soil insights and guidance
+## ✨ Features
 
-🌐 Multi-language support using react-i18next
+<table>
+  <tr>
+    <td align="center">
+      <h3>🌦️ Weather-Aware Planning</h3>
+      <p>Get crop recommendations based on real-time weather data</p>
+    </td>
+    <td align="center">
+      <h3>📈 Market Intelligence</h3>
+      <p>Stay updated with market prices and farming trends</p>
+    </td>
+    <td align="center">
+      <h3>🧪 Soil Analysis</h3>
+      <p>Receive personalized soil health insights and guidance</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h3>🌐 Multi-Language Support</h3>
+      <p>Access the platform in multiple regional languages</p>
+    </td>
+    <td align="center">
+      <h3>🌓 Modern UI/UX</h3>
+      <p>Beautiful glassmorphism design with dark/light themes</p>
+    </td>
+    <td align="center">
+      <h3>📱 Responsive Design</h3>
+      <p>Optimized experience across all devices</p>
+    </td>
+  </tr>
+</table>
 
-🌓 Transparent glassmorphism light/dark UI
+## 🛠️ Tech Stack
 
-📱 Fully responsive layout for mobile and desktop
+### Frontend
+- ⚡ **React 18** - Modern React with hooks and concurrent features
+- 🚀 **Vite** - Fast build tool and development server
+- 🎨 **Tailwind CSS** - Utility-first CSS framework
+- 📘 **TypeScript** - Type-safe JavaScript
+- 🎯 **Radix UI** - Accessible UI primitives
+- 🎭 **Lucide Icons** - Beautiful icon library
 
-⚡ Fast navigation with client-side routing
+### Backend
+- 🟢 **Node.js** - JavaScript runtime
+- 🚂 **Express.js** - Fast, unopinionated web framework
+- 🗄️ **Drizzle ORM** - TypeScript ORM for SQL databases
+- 🔧 **Drizzle Kit** - Database migration and schema management
 
-🔧 Modular backend architecture with Express
+### Additional Libraries
+- 🔄 **TanStack Query** - Powerful data synchronization for React
+- 🗺️ **Wouter** - Lightweight routing library
+- 🌍 **React i18next** - Internationalization framework
 
-🛠️ Tech Stack
-Frontend
-React 18
+## 📂 Project Structure
 
-Vite
-
-Tailwind CSS
-
-TypeScript
-
-Backend
-Node.js
-
-Express.js
-
-Database & ORM
-Drizzle ORM
-
-Drizzle Kit
-
-State Management & Fetching
-@tanstack/react-query
-
-UI & Utilities
-Radix UI
-
-Lucide React Icons
-
-react-i18next
-
-wouter
-
-📂 Project Structure
+```
 KrishiCare/
-├── client/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── hooks/
-│   │   ├── lib/
-│   │   ├── pages/
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│
-├── server/
-│   ├── index.ts
-│   ├── routes.ts
-│   ├── storage.ts
-│   └── vite.ts
-│
-├── shared/
-├── package.json
-├── vite.config.ts
-├── tailwind.config.ts
-├── drizzle.config.ts
-└── README.md
-⚙️ Installation
-Clone the repository:
+├── 📁 client/                 # Frontend React application
+│   ├── 📁 src/
+│   │   ├── 📁 components/     # Reusable UI components
+│   │   ├── 📁 hooks/         # Custom React hooks
+│   │   ├── 📁 lib/           # Utility functions and configurations
+│   │   ├── 📁 pages/         # Application pages/routes
+│   │   ├── 📄 App.tsx        # Main application component
+│   │   ├── 📄 main.tsx       # Application entry point
+│   │   └── 📄 index.css      # Global styles
+│   └── 📄 index.html         # HTML template
+├── 📁 server/                 # Backend Express server
+│   ├── 📄 index.ts           # Server entry point
+│   ├── 📄 routes.ts          # API routes
+│   ├── 📄 storage.ts         # Data storage utilities
+│   └── 📄 vite.ts            # Vite integration for SSR
+├── 📁 shared/                 # Shared types and utilities
+├── 📄 package.json           # Project dependencies
+├── 📄 vite.config.ts         # Vite configuration
+├── 📄 tailwind.config.ts     # Tailwind CSS configuration
+├── 📄 drizzle.config.ts      # Database configuration
+└── 📄 README.md              # Project documentation
+```
 
-git clone https://github.com/chandinisnwl/KrishiCare.git
-cd KrishiCare
-Install dependencies:
+## 🚀 Quick Start
 
-npm install
-▶️ Run Development Server
-npm run dev
-Open:
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
-http://localhost:5173
-📦 Production Build
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/chandinisnwl/KrishiCare.git
+   cd KrishiCare
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   ```
+   http://localhost:5173
+   ```
+
+## 📦 Build & Deployment
+
+### Production Build
+```bash
 npm run build
-🌐 Deployment
-The application is deployed using Render.
+```
 
-<<<<<<< HEAD
-## Deployment
+### Deployment Options
 
-### Render (Current Deployment)
+#### 🌐 Render (Current)
+KrishiCare is deployed on Render for reliable hosting.
 
-KrishiCare is currently deployed on Render at: **[https://krishicare.onrender.com/](https://krishicare.onrender.com/)**
+#### ⚡ Vercel (Alternative)
+```bash
+# Install Vercel CLI
+npm install -g vercel
 
-### Vercel (Alternative)
+# Login and deploy
+vercel login
+vercel --prod
+```
 
-KrishiCare is also configured for easy deployment to Vercel:
+## 🔮 Future Roadmap
 
-1. **Install Vercel CLI** (if not already installed):
-   ```bash
-   npm install -g vercel
-   ```
+- [ ] **Real-time Weather Integration** - Connect with weather APIs for accurate forecasts
+- [ ] **Live Market Data** - Real-time mandi prices and market trends
+- [ ] **AI-Powered Recommendations** - Machine learning for crop optimization
+- [ ] **User Authentication** - Secure farmer profiles and data
+- [ ] **Advanced Analytics** - Historical data visualization and insights
+- [ ] **Offline Support** - Work in areas with poor connectivity
+- [ ] **Pest Detection** - Image processing for pest identification
+- [ ] **Mobile App** - Native mobile application
 
-2. **Login to Vercel**:
-   ```bash
-   vercel login
-   ```
+## 📝 Key Notes
 
-3. **Deploy**:
-   ```bash
-   vercel --prod
-   ```
+- 🎨 **Theme Persistence**: User theme preferences saved in localStorage
+- ⚡ **Performance**: Backend optimized with esbuild for production
+- 🗄️ **Database**: Drizzle ORM configured for schema management
+- 🌐 **Internationalization**: Multi-language support ready for expansion
 
-Or use the provided deployment scripts:
-- **Linux/Mac**: `./deploy.sh`
-- **Windows**: `deploy.bat`
+## 👩‍💻 Author
 
-The app will be deployed as a full-stack application with the Express server running as serverless functions.
+**Chandini Sonowal**
+- BTech CSE Student
+- Full-Stack Developer
+- Passionate about technology and agriculture
 
-### Manual Vercel Deployment
+## 📜 License
 
-1. Push your code to GitHub
-2. Connect your GitHub repository to Vercel
-3. Vercel will automatically detect the `vercel.json` configuration and deploy
+This project is developed for educational and learning purposes. Feel free to use, modify, and distribute as needed.
 
-## Future Improvements
-=======
-Open KrishiCare
->>>>>>> fc4428884d98e81770d6a4f06415295b8b3fd852
+---
 
-🔮 Future Improvements
-Real-time weather API integration
-
-Live mandi/market price tracking
-
-AI-powered crop recommendations
-
-User authentication & farmer profiles
-
-Historical analytics and charts
-
-Offline support for rural connectivity
-
-Pest detection using image processing
-
-📝 Notes
-Theme preferences are stored using localStorage
-
-Backend production builds use esbuild
-
-drizzle-kit is configured for schema management and migrations
-
-👩‍💻 Author
-Chandini Sonowal
-BTech CSE Student | Full-Stack Developer
-
-📜 License
-This project is developed for educational and learning purposes.
+<div align="center">
+  <p><strong>Made with ❤️ for farmers, by developers</strong></p>
+  <p>
+    <a href="https://github.com/chandinisnwl/KrishiCare">GitHub</a> •
+    <a href="https://krishicare.onrender.com/">Live Demo</a> •
+    <a href="#features">Features</a> •
+    <a href="#quick-start">Get Started</a>
+  </p>
+</div>
